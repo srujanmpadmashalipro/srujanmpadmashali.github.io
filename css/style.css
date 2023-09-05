@@ -1,0 +1,66 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #279EFF;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: rgb(64, 248, 255);
+}
+
+/* navigation bar css */
+nav {
+  overflow: hidden;
+  background-color: rgb(12, 53, 106);
+  font-family: Arial, Helvetica, sans-serif;
+
+  /* text colour */
+  color: #D5FFD0;
+}
+
+/* navigation bar image and home contacts li in smae line */
+
+/* margin for links in navbar */
+
+
+nav img {
+  height: 50px;  
+  float: left;
+  background: #555;
+}
+
+/* list items in same line */
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* navigation bar links in same line */
+
+nav a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+nav a:hover {
+  background-color: rgb(64, 248, 255);
+  color: black;
+}
+
+nav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.main{
+    padding: 20px;
+}
