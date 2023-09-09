@@ -7,6 +7,14 @@ button {
   border: none;
   cursor: pointer;
 }
+button {
+  width: 100px;
+  height: 50px;
+  padding: 20px;
+  border: 2px solid red;
+  background-color: blue;
+}
+
 
 button:hover {
   background-color: #fff;
