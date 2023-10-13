@@ -1,3 +1,8 @@
+*{
+  padding:15px;
+  margin: 15px;
+}
+
 .hotel-name {
   background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Frestaurant-food&psig=AOvVaw3ZQRk0XuLyDt9QFM4VgRVW&ust=1697301708295000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLDPhee784EDFQAAAAAdAAAAABAD);
   background-size: cover;
@@ -20,11 +25,9 @@
   background-color: #fff;
   color: #000;
   font-family: sans-serif;
-}
-
-.menu-items {
   flex-direction: column;
 }
+
 
 .menu-item {
   padding: 10px;
@@ -46,6 +49,8 @@
 body {
   font-family: Open Sans, sans-serif;
   font-size: 16px;
+  background-color: white;
+  color: blue;
   line-height: 24px;
 }
 
@@ -64,10 +69,6 @@ p {
   line-height: 24px;
 }
 
-body {
-  background-color: white;
-  color: blue;
-}
 
 h1, h2, h3, h4, h5, h6 {
   color: darkblue;
@@ -85,9 +86,6 @@ a {
 .card {
   background-color: lightblue;
   color: black;
-}
-body {
-  font-family: "Open Sans", sans-serif;
 }
 
 
