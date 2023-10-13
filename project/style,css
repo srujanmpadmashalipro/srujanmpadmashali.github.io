@@ -1,0 +1,4 @@
+.hotel-name {
+  background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Frestaurant-food&psig=AOvVaw3ZQRk0XuLyDt9QFM4VgRVW&ust=1697301708295000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLDPhee784EDFQAAAAAdAAAAABAD);
+  background-size: cover;
+}
