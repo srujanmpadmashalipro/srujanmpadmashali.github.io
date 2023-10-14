@@ -1,5 +1,5 @@
 .hotel-name {
-  background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Frestaurant-food&psig=AOvVaw3ZQRk0XuLyDt9QFM4VgRVW&ust=1697301708295000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLDPhee784EDFQAAAAAdAAAAABAD);
+  background-image: url(background.jpg);
   background-size: cover;
 }
 
@@ -38,11 +38,12 @@
 .menu-item img {
   width: 50px;
   height: 50px;
+  border-radius: 10px;
   object-fit: cover;
 }
 body {
   font-family: Open Sans, sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   background-color: white;
   color: blue;
   line-height: 24px;
@@ -50,17 +51,17 @@ body {
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 30px;
   line-height: 30px;
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 30px;
   line-height: 23px;
 }
 
 p {
-  font-size: 25px;
+  font-size: 30px;
   line-height: 20px;
 }
 
