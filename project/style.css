@@ -19,11 +19,15 @@
   font-family: sans-serif;
   flex-direction: column;
 
-border-radius: 50px;
-background: #849be3;
-box-shadow:  20px 20px 60px #7084c1,
-             -20px -20px 60px #98b2ff;
+border-radius: 33px;
+background: #a8a8ff;
+box-shadow: inset 12px 12px 24px #7676b3,
+            inset -12px -12px 24px #dadaff;
+
+
   
+
+             
 }
 .menu-item {
   padding: 10px;
