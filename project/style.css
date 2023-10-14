@@ -4,14 +4,6 @@
   line-height: 20px;
 }
 
-.hotel-name {
-  display: flex;
-  align-items: center;
-}
-.menu-items {
-  display: flex;
-  flex-wrap: wrap;
-}
 .hotel-name,
 .menu-items {
   padding: 5px;
@@ -22,16 +14,19 @@
   border: 2px solid blue;
   background-image: url();
     background-size: cover;
+
+    display: flex;
+  align-items: center;
+    
+    flex-wrap: wrap;
+
+    background-color: white;
 }
 .menu-item {
   padding: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.menu-item h3 {
-  margin: 0;
 }
 
 .menu-item img {
@@ -55,35 +50,3 @@ body {
   background-size: cover;
 }
 
-
-
-
-
-
-table {
-      display: none;
-    }
-
-    table.active {
-      display: block;
-    }
-
-    .table-switcher {
-      margin: 0 auto;
-      width: 50%;
-    }
-
-    .table-switcher button {
-      cursor: pointer;
-      margin: 10px;
-    }.container {
-  display: flex;
-  justify-content: center;
-}
-
-.table {
-  width: 100%;
-}
-
-
-    
