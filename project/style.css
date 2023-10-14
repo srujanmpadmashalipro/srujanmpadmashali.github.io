@@ -18,12 +18,7 @@
   color: #000;
   font-family: sans-serif;
   flex-direction: column;
-
-border-radius: 33px;
-background: #a8a8ff;
-box-shadow: inset 12px 12px 24px #7676b3,
-            inset -12px -12px 24px #dadaff;
-
+  border: 2px solid blue;
 
   
 
@@ -53,6 +48,12 @@ body {
   color: blue;
   line-height: 24px;
   padding: 2px;
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h2 {
