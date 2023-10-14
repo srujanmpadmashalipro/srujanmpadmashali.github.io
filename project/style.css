@@ -15,12 +15,15 @@
 .menu-items {
   padding: 5px;
   border: 1px solid #ccc;
-  margin: 5px 0;
-  border-radius: 15px;
+  margin: 5px;
   background-color: #fff;
   color: #000;
   font-family: sans-serif;
   flex-direction: column;
+  border-radius: 37px;
+background: #8a8aff;
+box-shadow:  14px 14px 24px #7777db,
+             -14px -14px 24px #9d9dff;
 }
 
 
