@@ -43,7 +43,7 @@ box-shadow:  14px 14px 24px #dbdbdb,
 }
 body {
   font-family: Open Sans, sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   background-color: white;
   color: blue;
   line-height: 24px;
@@ -56,12 +56,12 @@ h2 {
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 28px;
 }
 
 p {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 24px;
 }
 
