@@ -42,7 +42,7 @@
 }
 body {
   font-family: Open Sans, sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   background-color: white;
   color: blue;
   line-height: 24px;
@@ -50,18 +50,18 @@ body {
 }
 
 h2 {
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 25px;
+  line-height: 30px;
 }
 
 h3 {
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 25px;
+  line-height: 23px;
 }
 
 p {
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 25px;
+  line-height: 20px;
 }
 
 
