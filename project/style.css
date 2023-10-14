@@ -14,9 +14,7 @@
 .hotel-name,
 .menu-items {
   padding: 5px;
-  border: 1px solid #ccc;
   margin: 5px;
-  background-color: #fff;
   color: #000;
   font-family: sans-serif;
   flex-direction: column;
@@ -29,7 +27,6 @@ box-shadow:  14px 14px 24px #7777db,
 
 .menu-item {
   padding: 10px;
-  border-bottom: 1px solid #ccc;
   display: flex;
   align-items: center;
   justify-content: space-between;
