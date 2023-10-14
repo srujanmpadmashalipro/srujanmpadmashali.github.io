@@ -1,7 +1,4 @@
-.hotel-name {
-  background-image: url(background.jpg);
-  background-size: cover;
-}
+
 
 .hotel-name {
   display: flex;
@@ -19,7 +16,8 @@
   font-family: sans-serif;
   flex-direction: column;
   border: 2px solid blue;
-
+  background-image: url(background4.jpeg);
+  background-size: cover;
   
 
              
