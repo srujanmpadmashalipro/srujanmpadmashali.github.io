@@ -18,10 +18,9 @@
   color: #000;
   font-family: sans-serif;
   flex-direction: column;
-  border-radius: 37px;
-background: #ffffff;
-box-shadow:  14px 14px 24px #dbdbdb,
-             -14px -14px 24px #ffffff;
+
+
+  border-radius: 37px; background: #ffffff; box-shadow: inset 50px 50px 100px #bfbfbf, inset -50px -50px 100px #ffffff;
 }
 
 
