@@ -1,4 +1,8 @@
-
+*{
+  color: darkblue;
+  font-size: 30px;
+  line-height: 20px;
+}
 
 .hotel-name {
   display: flex;
@@ -17,10 +21,7 @@
   flex-direction: column;
   border: 2px solid blue;
   background-image: url();
-  background-size: cover;
-  
-
-             
+    background-size: cover;
 }
 .menu-item {
   padding: 10px;
@@ -54,38 +55,28 @@ body {
   background-size: cover;
 }
 
-h2 {
-  font-size: 30px;
-  line-height: 30px;
-}
-
-h3 {
-  font-size: 30px;
-  line-height: 23px;
-}
-
-p {
-  font-size: 30px;
-  line-height: 20px;
-}
 
 
-h1, h2, h3, h4, h5, h6 {
-  color: darkblue;
-}
-
-a {
-  color: darkblue;
-}
-
-.button {
-  background-color: darkblue;
-  color: white;
-}
-
-.card {
-  background-color: lightblue;
-  color: black;
-}
 
 
+
+table {
+      display: none;
+    }
+
+    table.active {
+      display: block;
+    }
+
+    .table-switcher {
+      margin: 0 auto;
+      width: 50%;
+    }
+
+    .table-switcher button {
+      cursor: pointer;
+      margin: 10px;
+    }
+
+
+    
