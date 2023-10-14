@@ -76,7 +76,14 @@ table {
     .table-switcher button {
       cursor: pointer;
       margin: 10px;
-    }
+    }.container {
+  display: flex;
+  justify-content: center;
+}
+
+.table {
+  width: 100%;
+}
 
 
     
