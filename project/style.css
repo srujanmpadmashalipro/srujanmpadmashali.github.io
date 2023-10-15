@@ -67,9 +67,8 @@ h3{
             display: grid; 
 
             grid-template-columns: 1fr 1fr 1fr; 
-
-  
-
+  justify-content: center;
+  align-items: center;
             /* Making equal spaced divs */ 
 
             gap: 1rem; 
@@ -81,7 +80,8 @@ h3{
         .tab active, .tab{ 
 
             border: 2px solid blue; 
-
-          
+          border-radius:15px;
+          justify-content: center;
+  align-items: center;
 
         } 
