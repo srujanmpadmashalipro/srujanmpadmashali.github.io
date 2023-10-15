@@ -66,7 +66,7 @@ h3{
 
             display: grid; 
 
-            grid-template-columns: 1fr 1fr 1fr 1fr; 
+            grid-template-columns: 1fr 1fr 1fr; 
 
   
 
@@ -80,10 +80,8 @@ h3{
 
         .tab active, .tab{ 
 
-            border: 4px solid black; 
+            border: 2px solid blue; 
 
-            background-color: red; 
-
-            height: 30vh; 
+          
 
         } 
