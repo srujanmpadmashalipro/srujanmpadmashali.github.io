@@ -67,10 +67,9 @@ h3{
             display: grid; 
 
             grid-template-columns: 1fr 1fr 1fr; 
-  justify-content: center;
-  align-items: center;
-            /* Making equal spaced divs */ 
-
+  
+            /* Making equal spaced divs */
+  place-content: center;
             gap: 1rem; 
 
         } 
@@ -81,7 +80,6 @@ h3{
 
             border: 2px solid blue; 
           border-radius:15px;
-          justify-content: center;
-  align-items: center;
+          ;
 
         } 
