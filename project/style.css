@@ -32,11 +32,9 @@ body {
   padding: 5px;
   margin: 5px;
   color: #21130d;
-  font-family: sans-serif;
   flex-direction: column;
   border: 2px solid blue;
   background-size: cover;
-  background-color: ;
   border-radius: 15px;
 }
 
