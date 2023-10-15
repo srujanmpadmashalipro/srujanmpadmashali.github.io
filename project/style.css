@@ -7,8 +7,7 @@
 body {
   font-family: Open Sans, sans-serif;
   font-size: 30px;
-  background-color: white;
-  color: blue;
+  color: #abdbe3;
   line-height: 24px;
   padding: 2px;
   height: 100%;
@@ -32,12 +31,13 @@ body {
 .menu-items {
   padding: 5px;
   margin: 5px;
-  color: #000;
+  color: #21130d;
   font-family: sans-serif;
   flex-direction: column;
   border: 2px solid blue;
   background-size: cover;
-  background-color: white;
+  background-color: ;
+  border-radius: 15px;
 }
 
 .menu-item {
