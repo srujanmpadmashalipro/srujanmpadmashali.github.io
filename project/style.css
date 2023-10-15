@@ -57,3 +57,33 @@ h3{
   width: 33%;
 }
 
+
+#tabs{ 
+
+          
+
+            /* Using the grid property */ 
+
+            display: grid; 
+
+            grid-template-columns: 1fr 1fr 1fr 1fr; 
+
+  
+
+            /* Making equal spaced divs */ 
+
+            gap: 1rem; 
+
+        } 
+
+  
+
+        .tab active, .tab{ 
+
+            border: 4px solid black; 
+
+            background-color: red; 
+
+            height: 30vh; 
+
+        } 
