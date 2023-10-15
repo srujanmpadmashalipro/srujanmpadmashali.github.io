@@ -105,7 +105,7 @@
   </div>
 </div>
 
-
+"openTab('Tab 1')"
 
 
 
@@ -283,6 +283,11 @@
 </div>
 
 <script>
+window.onload = function() {
+  openTab('Tab 2');
+};
+
+  
 function openTab(tabName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
