@@ -77,6 +77,7 @@ h3{
   
 
         .tab active, .tab{ 
+          height: 25px;
 
             border: 2px solid blue; 
           border-radius:15px;
