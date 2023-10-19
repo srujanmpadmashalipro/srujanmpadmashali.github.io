@@ -62,4 +62,8 @@
      padding: 25px 0px 0px 0px;
      margin: 5px;
 }
+
+.tab active{
+     background-color: #1ba2e0;
+}
  
