@@ -64,6 +64,7 @@
 }
 
 .tab active{
-     background-color: #1ba2e0;
+     background-color: blue;
+     border-radius:0px;
 }
  
