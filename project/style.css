@@ -1,86 +1,64 @@
 *{
-  color: darkblue;
-  font-size: 30px;
-  line-height: 20px;
+     color: darkblue;
+     font-size: 30px;
+     line-height: 20px;
 }
-
-body {
-  font-family: 'Roboto Slab', serif;
-  font-size: 30px;
-  color: #abdbe3;
-  line-height: 24px;
-  padding: 2px;
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+ body {
+     font-family: 'Roboto Slab', serif;
+     font-size: 30px;
+     color: #abdbe3;
+     line-height: 24px;
+     padding: 2px;
+     height: 100%;
+    /* Center and scale the image nicely */
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
 }
-
-.hotel-name{
-  display: flex;
-  align-items: center;
+ .hotel-name{
+     display: flex;
+     align-items: center;
 }
-
-.menu-items{
-  display: flex;
-  flex-wrap: wrap;
+ .menu-items{
+     display: flex;
+     flex-wrap: wrap;
 }
-.hotel-name,
-.menu-items {
-  padding: 5px;
-  margin: 5px;
-  color: #21130d;
-  flex-direction: column;
-  border: 2px solid blue;
-  background-size: cover;
-  border-radius: 15px;
-
+ .hotel-name, .menu-items {
+     padding: 5px;
+     margin: 5px;
+     color: #21130d;
+     flex-direction: column;
+     border: 2px solid blue;
+     background-size: cover;
+     border-radius: 15px;
 }
-
-.menu-item {
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+ .menu-item {
+     padding: 10px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
 }
-
-.menu-item img {
-  width: 50px;
-  height: 50px;
-  border-radius: 10px;
-  object-fit: cover;
+ .menu-item img {
+     width: 50px;
+     height: 50px;
+     border-radius: 10px;
+     object-fit: cover;
 }
-
-h3{
-  width: 33%;
+ h3{
+     width: 33%;
 }
-
-
-#tabs{ 
-
-          
-
-            /* Using the grid property */ 
-
-            display: grid; 
-
-            grid-template-columns: 1fr 1fr 1fr; 
-  
-            /* Making equal spaced divs */
-  place-content: center;
-            gap: 1rem; 
-
-        } 
-
-  
-
-        .tab active, .tab{ 
-          height: 25px;
-
-            border: 2px solid blue; 
-          border-radius:15px;
-          ;
-
-        } 
+ #tabs{
+    /* Using the grid property */
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+    /* Making equal spaced divs */
+     place-content: center;
+     gap: 1rem;
+}
+ .tab active, .tab{
+     height: 25px;
+     border: 2px solid blue;
+     border-radius:15px;
+     
+}
+ 
